@@ -1,1 +1,27 @@
-# V2X-Communication
+Reliablebeamalignment is a critical challenge in
+Millimeter-Wave (mmWave)Vehicle-to-Everything (V2X) com
+munications, particularlyunderhigh-mobilityconditionswhere
+rapidtopologychangesandDopplershiftsdegrade linkquality.
+Traditional exhaustive beamsearching, while accurate, intro
+duces significant signaling overhead and latency that is often
+unsustainableforhigh-speedvehicularnetworks.
+ThispaperproposesaMobility-AwareAI-BasedBeamPredic
+tionframeworkdesignedtooptimizebeamselectionwithlimited
+andnoisyfeedback.ThesystemutilizesaDeepNeuralNetwork
+(DNN) architecture—specifically amulti-layer perceptron—to
+mapreal-timemobilityfeatures,suchasvehiclespeedandAngle
+ofArrival (AoA), directly to theoptimal beamindex ina16
+elementUniformLinearArray(ULA).Toensurerobustness in
+realisticV2Xenvironments, themodel is trainedonadataset
+incorporating imperfectChannel State Information (CSI) and
+sensorynoise, includinga±5km/herror invelocityanda±5◦
+error inspatial estimation.
+Operating at a carrier frequency of 28GHz, the proposed
+model isevaluatedagainstastandardexhaustivesearchbaseline.
+Experimental resultsdemonstrate that theAI-drivenapproach
+achieveshighpredictionaccuracyacrossvehiclespeedsranging
+from60km/hto120km/h.Byeliminatingtheneedforsequential
+beam training, the proposed framework significantly reduces
+communicationlatencyandenhances thestabilityofhigh-speed
+V2Xlinks, providingascalable solutionfor future6G-enabled
+intelligent transportationsystems.
